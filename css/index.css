@@ -1,13 +1,13 @@
 body {
   background-color: #fcf5df;
 }
-.content{
+.content {
   background: url(/images/bg_image.png) no-repeat;
 }
 /* header */
 .header {
   height: 200px;
-  margin:auto;
+  margin: auto;
   border-top: 1px solid #fff;
 }
 /* logo */
@@ -19,7 +19,7 @@ body {
   margin: 52px auto 26px;
   /* border: 1px solid #f00; */
 }
-.logo a{
+.logo a {
   display: block;
   height: 100%;
   z-index: 9999;
@@ -98,7 +98,7 @@ body {
 }
 
 /* top menu */
-.top_menu{
+.top_menu {
   width: 1200px;
   height: 43px;
   margin: auto;
@@ -109,38 +109,38 @@ body {
   top: -200px;
   right: 5px;
 }
-.top_menu .global{
+.top_menu .global {
   width: 45px;
   height: 43px;
   background: url(/images/top_menu_global.jpg) no-repeat;
   text-indent: -9999px;
   float: left;
 }
-.top_menu .global a{
+.top_menu .global a {
   width: 45px;
   height: 43px;
   display: block;
 }
-.top_menu .search{
+.top_menu .search {
   width: 45px;
   height: 43px;
   background: url(/images/top_menu_search.jpg) no-repeat;
   text-indent: -9999px;
   float: left;
 }
-.top_menu .search a{
+.top_menu .search a {
   width: 45px;
   height: 43px;
   display: block;
 }
-.top_menu .login{
+.top_menu .login {
   width: 77px;
   height: 43px;
   background: url(/images/top_menu_login.jpg) no-repeat;
   text-indent: -9999px;
   float: left;
 }
-.top_menu .login a{
+.top_menu .login a {
   width: 77px;
   height: 43px;
   display: block;
@@ -152,13 +152,13 @@ body {
   background: url(/images/main_image_1.png) no-repeat;
   position: relative;
 }
-.main_image_content_wrap{
+.main_image_content_wrap {
   width: 1200px;
   height: 780px;
   margin: auto;
   position: relative;
 }
-.main_image a{
+.main_image a {
   display: block;
 }
 /* .main_image_1{
@@ -167,7 +167,7 @@ body {
   margin: auto;
   text-indent: -9999px;
 } */
-.main_prev{
+.main_prev {
   width: 58px;
   height: 94px;
   background: url(/images/main_prev.png) no-repeat;
@@ -176,7 +176,7 @@ body {
   top: 296px;
   left: 10px;
 }
-.main_next{
+.main_next {
   width: 58px;
   height: 94px;
   background: url(/images/main_next.png) no-repeat;
@@ -197,7 +197,7 @@ body {
   text-indent: -9999px;
   margin-bottom: 24px;
 }
-.core_range_content_wrap{
+.core_range_content_wrap {
   width: 1200px;
   height: 1300px;
   margin-bottom: 72px;
@@ -208,13 +208,13 @@ body {
 .core_range dl dd {
   display: none;
 }
-.red_label_wrap{
+.red_label_wrap {
   width: 380px;
   height: 558px;
   margin: 25px 10px;
   float: left;
 }
-.red_label_wrap a{
+.red_label_wrap a {
   width: 175px;
   height: 21px;
   background: url(/images/red_label_title.jpg) no-repeat;
@@ -222,19 +222,19 @@ body {
   margin: auto;
   text-indent: -9999px;
 }
-.red_label_wrap dl{
+.red_label_wrap dl {
   width: 380px;
   height: 510px;
   margin-bottom: 27px;
   background: url(/images/red_label.jpg) no-repeat;
 }
-.black_label_wrap{
+.black_label_wrap {
   width: 380px;
   height: 558px;
   margin: 25px 10px;
   float: left;
 }
-.black_label_wrap a{
+.black_label_wrap a {
   width: 215px;
   height: 21px;
   background: url(/images/black_label_title.jpg) no-repeat;
@@ -242,19 +242,19 @@ body {
   margin: auto;
   text-indent: -9999px;
 }
-.black_label_wrap dl{
+.black_label_wrap dl {
   width: 380px;
   height: 510px;
   margin-bottom: 27px;
   background: url(/images/black_label.jpg) no-repeat;
 }
-.doubleblack_label_wrap{
+.doubleblack_label_wrap {
   width: 380px;
   height: 558px;
   margin: 25px 10px;
   float: left;
 }
-.doubleblack_label_wrap a{
+.doubleblack_label_wrap a {
   width: 358px;
   height: 21px;
   background: url(/images/doubleblack_label_title.jpg) no-repeat;
@@ -262,19 +262,19 @@ body {
   margin: auto;
   text-indent: -9999px;
 }
-.doubleblack_label_wrap dl{
+.doubleblack_label_wrap dl {
   width: 380px;
   height: 510px;
   margin-bottom: 27px;
   background: url(/images/doubleblack_label.jpg) no-repeat;
 }
-.gold_label_wrap{
+.gold_label_wrap {
   width: 380px;
   height: 558px;
   margin: 25px 10px;
   float: left;
 }
-.gold_label_wrap a{
+.gold_label_wrap a {
   width: 200px;
   height: 21px;
   background: url(/images/gold_label_title.jpg) no-repeat;
@@ -282,19 +282,19 @@ body {
   margin: auto;
   text-indent: -9999px;
 }
-.gold_label_wrap dl{
+.gold_label_wrap dl {
   width: 380px;
   height: 510px;
   margin-bottom: 27px;
   background: url(/images/gold_label.jpg) no-repeat;
 }
-.green_label_wrap{
+.green_label_wrap {
   width: 380px;
   height: 558px;
   margin: 25px 10px;
   float: left;
 }
-.green_label_wrap a{
+.green_label_wrap a {
   width: 219px;
   height: 21px;
   background: url(/images/green_label_title.jpg) no-repeat;
@@ -302,19 +302,19 @@ body {
   margin: auto;
   text-indent: -9999px;
 }
-.green_label_wrap dl{
+.green_label_wrap dl {
   width: 380px;
   height: 510px;
   margin-bottom: 27px;
   background: url(/images/green_label.jpg) no-repeat;
 }
-.blue_label_wrap{
+.blue_label_wrap {
   width: 380px;
   height: 558px;
   margin: 25px 10px;
   float: left;
 }
-.blue_label_wrap a{
+.blue_label_wrap a {
   width: 192px;
   height: 21px;
   background: url(/images/blue_label_title.jpg) no-repeat;
@@ -322,14 +322,14 @@ body {
   margin: auto;
   text-indent: -9999px;
 }
-.blue_label_wrap dl{
+.blue_label_wrap dl {
   width: 380px;
   height: 510px;
   margin-bottom: 27px;
   background: url(/images/blue_label.jpg) no-repeat;
 }
 /* whisky cocktail */
-.whisky_cocktails{
+.whisky_cocktails {
   width: 1200px;
   margin: auto;
 }
@@ -340,7 +340,7 @@ body {
   text-indent: -9999px;
   margin: 0px 0px 24px auto;
 }
-.whisky_cocktails_content_wrap{
+.whisky_cocktails_content_wrap {
   width: 1200px;
   height: 1379px;
   padding: 30px 10px;
@@ -348,37 +348,37 @@ body {
   background: #0f63af;
   border-top: 1px solid #0f63af;
 }
-.whisky_cocktails video{
+.whisky_cocktails video {
   width: 1180px;
   height: 617px;
   display: block;
   margin: 0px auto 20px;
 }
-.whisky_cocktails img{
+.whisky_cocktails img {
   width: 380px;
   height: 682px;
   float: left;
 }
-.cocktail_recipe_detail{
+.cocktail_recipe_detail {
   width: 780px;
   height: 682px;
   padding: 66px 35px 0px;
   background: #fcf5df;
-  float:right;
+  float: right;
   position: relative;
 }
-.cocktail_recipe_detail dt{
+.cocktail_recipe_detail dt {
   font-family: 'Montserrat', sans-serif;
   font-weight: 700;
   font-size: 48px;
   margin-bottom: 30px;
 }
-.cocktail_recipe_detail dd{
+.cocktail_recipe_detail dd {
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
   font-size: 32px;
 }
-.cocktail_recipe_detail a{
+.cocktail_recipe_detail a {
   width: 382px;
   height: 59px;
   text-indent: -9999px;
@@ -389,49 +389,49 @@ body {
   bottom: 27px;
 }
 /* journey */
-.journey{
+.journey {
   width: 100%;
   height: 346px;
   padding: 50px 0px;
   background: #43695b;
 }
-.journey_content_wrap{
+.journey_content_wrap {
   width: 1200px;
   padding: 0px 10px;
   margin: auto;
 }
-.journey h2{
+.journey h2 {
   width: 481px;
   height: 45px;
   margin-bottom: 75px;
   text-indent: -9999px;
   background: url(/images/journey_title.jpg) no-repeat;
 }
-.journey p{
+.journey p {
   width: 614px;
   height: 81px;
   text-indent: -9999px;
   background: url(/images/journey_detail.jpg) no-repeat;
   float: left;
 }
-.journey a{
+.journey a {
   width: 382px;
   height: 59px;
   margin-top: 11px;
-  margin-right: 99px;
+  margin-right: 50px;
   text-indent: -9999px;
   background: url(/images/journey_more.jpg) no-repeat;
   display: block;
   float: right;
 }
 /* footer */
-.footer{
+.footer {
   width: 100%;
   height: 628px;
-  background: #000;
+  background-color: #000;
   color: #fcf5df;
 }
-.footer_wrap{
+.footer_wrap {
   width: 1200px;
   height: 628px;
   padding: 41px 10px 0px;
@@ -444,10 +444,10 @@ body {
 .footer p,
 .footer dl,
 .footer dt,
-.footer dd{
+.footer dd {
   color: #fcf5df;
 }
-.footer_logo{
+.footer_logo {
   width: 380px;
   height: 53px;
   text-indent: -9999px;
@@ -456,69 +456,69 @@ body {
   left: 399px;
   bottom: 30px;
 }
-.footer h3{
+.footer h3 {
   font-family: 'Montserrat', sans-serif;
   font-weight: 700;
   font-size: 24px;
   margin-bottom: 20px;
 }
-.footer li{
+.footer li {
   font-family: 'Montserrat', sans-serif;
   font-weight: 500;
   font-size: 24px;
   line-height: 1;
   margin-bottom: 20px;
 }
-.footer_category_1{
+.footer_category_1 {
   width: 217px;
   margin-right: 40px;
   float: left;
 }
-.footer_category_2{
+.footer_category_2 {
   margin-right: 40px;
   float: left;
 }
-.footer_category_3{
+.footer_category_3 {
   float: left;
 }
-.footer_sns{
+.footer_sns {
   float: right;
 }
-.footer_sns ul{
+.footer_sns ul {
   height: 34px;
   margin-bottom: 29px;
 }
-.footer_sns li{
+.footer_sns li {
   float: left;
 }
-.footer_twitter{
+.footer_twitter {
   width: 39px;
   height: 34px;
   margin-right: 39px;
   text-indent: -9999px;
   background: url(/images/footer_twitter.jpg) no-repeat;
 }
-.footer_youtube{
+.footer_youtube {
   width: 39px;
   height: 34px;
   margin-right: 40px;
   text-indent: -9999px;
   background: url(/images/footer_youtube.jpg) no-repeat;
 }
-.footer_instagram{
+.footer_instagram {
   width: 39px;
   height: 34px;
   margin-right: 39px;
   text-indent: -9999px;
   background: url(/images/footer_instagram.jpg) no-repeat;
 }
-.footer_facebook{
+.footer_facebook {
   width: 39px;
   height: 34px;
   text-indent: -9999px;
   background: url(/images/footer_facebook.jpg) no-repeat;
 }
-.footer_sns p{
+.footer_sns p {
   width: 239px;
   height: 61px;
   margin-left: 15px;
@@ -526,24 +526,24 @@ body {
   background: url(/images/footer_sns_detail.jpg) no-repeat;
   clear: both;
 }
-.footer_us{
+.footer_us {
   position: absolute;
   left: 0px;
   bottom: 0px;
 }
-.footer_us li{
+.footer_us li {
   font-family: 'Montserrat', sans-serif;
   font-weight: 700;
   font-size: 24px;
   padding: 0px 10px;
   float: left;
 }
-.footer_responsibility h3{
+.footer_responsibility h3 {
   width: 432px;
   height: 57px;
   text-indent: -9999px;
-  background: url(/images/footer_responsibility_detail.jpg);
+  background: url(/images/footer_responsibility_detail.png);
   position: absolute;
-  right: -300px;
+  right: 0px;
   bottom: 28px;
 }
