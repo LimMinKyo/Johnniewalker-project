@@ -517,12 +517,22 @@ body {
   text-indent: -9999px;
   background: url(../images/footer_twitter.jpg) no-repeat;
 }
+.footer_twitter a {
+  width: 39px;
+  height: 34px;
+  display: block;
+}
 .footer_youtube {
   width: 39px;
   height: 34px;
   margin-right: 40px;
   text-indent: -9999px;
   background: url(../images/footer_youtube.jpg) no-repeat;
+}
+.footer_youtube a {
+  width: 39px;
+  height: 34px;
+  display: block;
 }
 .footer_instagram {
   width: 39px;
@@ -531,11 +541,21 @@ body {
   text-indent: -9999px;
   background: url(../images/footer_instagram.jpg) no-repeat;
 }
+.footer_instagram a {
+  width: 39px;
+  height: 34px;
+  display: block;
+}
 .footer_facebook {
   width: 39px;
   height: 34px;
   text-indent: -9999px;
   background: url(../images/footer_facebook.jpg) no-repeat;
+}
+.footer_facebook a {
+  width: 39px;
+  height: 34px;
+  display: block;
 }
 .footer_sns p {
   width: 239px;
