@@ -6,7 +6,7 @@ body {
   width: 1920px;
 }
 .content {
-  background: url(/images/bg_image.png) no-repeat;
+  background: url(../images/bg_image.png) no-repeat;
 }
 /* header */
 .header {
@@ -18,7 +18,7 @@ body {
 .logo {
   width: 580px;
   height: 82px;
-  background: url(/images/logo.jpg) no-repeat;
+  background: url(../images/logo.jpg) no-repeat;
   text-indent: -9999px;
   margin: 52px auto 26px;
   /* border: 1px solid #f00; */
@@ -42,7 +42,7 @@ body {
 .menu_1 a {
   width: 131px;
   height: 40px;
-  background: url(/images/menu_01.jpg) no-repeat;
+  background: url(../images/menu_01.jpg) no-repeat;
   display: block;
   text-indent: -9999px;
 }
@@ -53,7 +53,7 @@ body {
 .menu_2 a {
   width: 188px;
   height: 40px;
-  background: url(/images/menu_02.jpg) no-repeat;
+  background: url(../images/menu_02.jpg) no-repeat;
   display: block;
   text-indent: -9999px;
 }
@@ -64,7 +64,7 @@ body {
 .menu_3 a {
   width: 146px;
   height: 40px;
-  background: url(/images/menu_03.jpg) no-repeat;
+  background: url(../images/menu_03.jpg) no-repeat;
   display: block;
   text-indent: -9999px;
 }
@@ -75,7 +75,7 @@ body {
 .menu_4 a {
   width: 182px;
   height: 40px;
-  background: url(/images/menu_04.jpg) no-repeat;
+  background: url(../images/menu_04.jpg) no-repeat;
   display: block;
   text-indent: -9999px;
 }
@@ -86,7 +86,7 @@ body {
 .menu_5 a {
   width: 157px;
   height: 40px;
-  background: url(/images/menu_05.jpg) no-repeat;
+  background: url(../images/menu_05.jpg) no-repeat;
   display: block;
   text-indent: -9999px;
 }
@@ -96,7 +96,7 @@ body {
 .menu_6 a {
   width: 219px;
   height: 40px;
-  background: url(/images/menu_06.jpg) no-repeat;
+  background: url(../images/menu_06.jpg) no-repeat;
   display: block;
   text-indent: -9999px;
 }
@@ -116,7 +116,7 @@ body {
 .top_menu .global {
   width: 45px;
   height: 43px;
-  background: url(/images/top_menu_global.jpg) no-repeat;
+  background: url(../images/top_menu_global.jpg) no-repeat;
   text-indent: -9999px;
   float: left;
 }
@@ -128,7 +128,7 @@ body {
 .top_menu .search {
   width: 45px;
   height: 43px;
-  background: url(/images/top_menu_search.jpg) no-repeat;
+  background: url(../images/top_menu_search.jpg) no-repeat;
   text-indent: -9999px;
   float: left;
 }
@@ -140,7 +140,7 @@ body {
 .top_menu .login {
   width: 77px;
   height: 43px;
-  background: url(/images/top_menu_login.jpg) no-repeat;
+  background: url(../images/top_menu_login.jpg) no-repeat;
   text-indent: -9999px;
   float: left;
 }
@@ -154,7 +154,7 @@ body {
   width: 1920px;
   height: 780px;
   margin: 0 auto 72px;
-  background: url(/images/main_image_1.png) no-repeat;
+  background: url(../images/main_image_1.png) no-repeat;
   position: relative;
 }
 .main_image_content_wrap {
@@ -181,7 +181,7 @@ body {
 .main_prev {
   width: 58px;
   height: 94px;
-  background: url(/images/main_prev.png) no-repeat;
+  background: url(../images/main_prev.png) no-repeat;
   text-indent: -9999px;
   position: absolute;
   top: 296px;
@@ -190,7 +190,7 @@ body {
 .main_next {
   width: 58px;
   height: 94px;
-  background: url(/images/main_next.png) no-repeat;
+  background: url(../images/main_next.png) no-repeat;
   text-indent: -9999px;
   position: absolute;
   top: 296px;
@@ -203,7 +203,7 @@ body {
 .core_range h2 {
   width: 838px;
   height: 60px;
-  background: url(/images/core_range_title.png) no-repeat;
+  background: url(../images/core_range_title.png) no-repeat;
   text-indent: -9999px;
   margin: 0px auto 24px 370px;
 }
@@ -232,7 +232,7 @@ body {
 .red_label_wrap a {
   width: 175px;
   height: 21px;
-  background: url(/images/red_label_title.jpg) no-repeat;
+  background: url(../images/red_label_title.jpg) no-repeat;
   display: block;
   margin: auto;
   text-indent: -9999px;
@@ -241,7 +241,7 @@ body {
   width: 380px;
   height: 510px;
   margin-bottom: 27px;
-  background: url(/images/red_label.jpg) no-repeat;
+  background: url(../images/red_label.jpg) no-repeat;
 }
 .black_label_wrap {
   width: 380px;
@@ -252,7 +252,7 @@ body {
 .black_label_wrap a {
   width: 215px;
   height: 21px;
-  background: url(/images/black_label_title.jpg) no-repeat;
+  background: url(../images/black_label_title.jpg) no-repeat;
   display: block;
   margin: auto;
   text-indent: -9999px;
@@ -261,7 +261,7 @@ body {
   width: 380px;
   height: 510px;
   margin-bottom: 27px;
-  background: url(/images/black_label.jpg) no-repeat;
+  background: url(../images/black_label.jpg) no-repeat;
 }
 .doubleblack_label_wrap {
   width: 380px;
@@ -272,7 +272,7 @@ body {
 .doubleblack_label_wrap a {
   width: 358px;
   height: 21px;
-  background: url(/images/doubleblack_label_title.jpg) no-repeat;
+  background: url(../images/doubleblack_label_title.jpg) no-repeat;
   display: block;
   margin: auto;
   text-indent: -9999px;
@@ -281,7 +281,7 @@ body {
   width: 380px;
   height: 510px;
   margin-bottom: 27px;
-  background: url(/images/doubleblack_label.jpg) no-repeat;
+  background: url(../images/doubleblack_label.jpg) no-repeat;
 }
 .gold_label_wrap {
   width: 380px;
@@ -292,7 +292,7 @@ body {
 .gold_label_wrap a {
   width: 200px;
   height: 21px;
-  background: url(/images/gold_label_title.jpg) no-repeat;
+  background: url(../images/gold_label_title.jpg) no-repeat;
   display: block;
   margin: auto;
   text-indent: -9999px;
@@ -301,7 +301,7 @@ body {
   width: 380px;
   height: 510px;
   margin-bottom: 27px;
-  background: url(/images/gold_label.jpg) no-repeat;
+  background: url(../images/gold_label.jpg) no-repeat;
 }
 .green_label_wrap {
   width: 380px;
@@ -312,7 +312,7 @@ body {
 .green_label_wrap a {
   width: 219px;
   height: 21px;
-  background: url(/images/green_label_title.jpg) no-repeat;
+  background: url(../images/green_label_title.jpg) no-repeat;
   display: block;
   margin: auto;
   text-indent: -9999px;
@@ -321,7 +321,7 @@ body {
   width: 380px;
   height: 510px;
   margin-bottom: 27px;
-  background: url(/images/green_label.jpg) no-repeat;
+  background: url(../images/green_label.jpg) no-repeat;
 }
 .blue_label_wrap {
   width: 380px;
@@ -332,7 +332,7 @@ body {
 .blue_label_wrap a {
   width: 192px;
   height: 21px;
-  background: url(/images/blue_label_title.jpg) no-repeat;
+  background: url(../images/blue_label_title.jpg) no-repeat;
   display: block;
   margin: auto;
   text-indent: -9999px;
@@ -341,7 +341,7 @@ body {
   width: 380px;
   height: 510px;
   margin-bottom: 27px;
-  background: url(/images/blue_label.jpg) no-repeat;
+  background: url(../images/blue_label.jpg) no-repeat;
 }
 /* whisky cocktail */
 .whisky_cocktails {
@@ -351,7 +351,7 @@ body {
 .whisky_cocktails h2 {
   width: 636px;
   height: 44px;
-  background: url(/images/whisky_cocktails_title.png) no-repeat;
+  background: url(../images/whisky_cocktails_title.png) no-repeat;
   text-indent: -9999px;
   margin: 0px 10px 24px auto;
 }
@@ -402,7 +402,7 @@ body {
   height: 59px;
   text-indent: -9999px;
   display: block;
-  background: url(/images/cocktail_recipe_more.jpg) no-repeat;
+  background: url(../images/cocktail_recipe_more.jpg) no-repeat;
   position: absolute;
   left: 199px;
   bottom: 27px;
@@ -424,13 +424,13 @@ body {
   height: 45px;
   margin-bottom: 75px;
   text-indent: -9999px;
-  background: url(/images/journey_title.jpg) no-repeat;
+  background: url(../images/journey_title.jpg) no-repeat;
 }
 .journey p {
   width: 614px;
   height: 81px;
   text-indent: -9999px;
-  background: url(/images/journey_detail.jpg) no-repeat;
+  background: url(../images/journey_detail.jpg) no-repeat;
   float: left;
 }
 .journey a {
@@ -439,7 +439,7 @@ body {
   margin-top: 11px;
   margin-right: 50px;
   text-indent: -9999px;
-  background: url(/images/journey_more.jpg) no-repeat;
+  background: url(../images/journey_more.jpg) no-repeat;
   display: block;
   float: right;
 }
@@ -470,7 +470,7 @@ body {
   width: 380px;
   height: 53px;
   text-indent: -9999px;
-  background: url(/images/footer_logo.png) no-repeat;
+  background: url(../images/footer_logo.png) no-repeat;
   position: absolute;
   left: 399px;
   bottom: 30px;
@@ -515,34 +515,34 @@ body {
   height: 34px;
   margin-right: 39px;
   text-indent: -9999px;
-  background: url(/images/footer_twitter.jpg) no-repeat;
+  background: url(../images/footer_twitter.jpg) no-repeat;
 }
 .footer_youtube {
   width: 39px;
   height: 34px;
   margin-right: 40px;
   text-indent: -9999px;
-  background: url(/images/footer_youtube.jpg) no-repeat;
+  background: url(../images/footer_youtube.jpg) no-repeat;
 }
 .footer_instagram {
   width: 39px;
   height: 34px;
   margin-right: 39px;
   text-indent: -9999px;
-  background: url(/images/footer_instagram.jpg) no-repeat;
+  background: url(../images/footer_instagram.jpg) no-repeat;
 }
 .footer_facebook {
   width: 39px;
   height: 34px;
   text-indent: -9999px;
-  background: url(/images/footer_facebook.jpg) no-repeat;
+  background: url(../images/footer_facebook.jpg) no-repeat;
 }
 .footer_sns p {
   width: 239px;
   height: 61px;
   margin-left: 15px;
   text-indent: -9999px;
-  background: url(/images/footer_sns_detail.jpg) no-repeat;
+  background: url(../images/footer_sns_detail.jpg) no-repeat;
   clear: both;
 }
 .footer_us {
@@ -561,7 +561,7 @@ body {
   width: 432px;
   height: 57px;
   text-indent: -9999px;
-  background: url(/images/footer_responsibility_detail.png);
+  background: url(../images/footer_responsibility_detail.png);
   position: absolute;
   right: 0px;
   bottom: 28px;
