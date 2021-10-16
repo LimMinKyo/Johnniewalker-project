@@ -6,7 +6,7 @@ body {
   width: 1920px;
 }
 .content {
-  background: url(../images/bg_image.png) no-repeat;
+  background: url(../images/bg_image.png) no-repeat center;
 }
 /* header */
 .header {
@@ -209,7 +209,9 @@ body {
 }
 .core_range_content_bg {
   width: 1560px;
-  background: #e02a29;
+  background: #e02a29 url(../images/core_range_bg_point.png) no-repeat;
+  background-position: left 100px center;
+  box-shadow: 20px 20px 10px #888;
 }
 .core_range_content_wrap {
   width: 1200px;
@@ -357,7 +359,9 @@ body {
 }
 .whisky_cocktails_content_bg {
   width: 1560px;
-  background: #0f63af;
+  background: #0f63af url(../images/whisky_cocktails_bg_point.png) no-repeat;
+  background-position: right 100px center;
+  box-shadow: -20px 20px 10px #888;
   margin-bottom: 72px;
 }
 .whisky_cocktails_content_wrap {
