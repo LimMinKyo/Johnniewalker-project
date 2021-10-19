@@ -1,3 +1,7 @@
+body {
+  background-color: #fcf5df;
+  width: 1920px;
+}
 .blind {
   position: absolute;
   clip: rect(0 0 0 0);

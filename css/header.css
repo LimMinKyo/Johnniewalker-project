@@ -1,0 +1,141 @@
+/* header */
+.header {
+  height: 200px;
+  margin: auto;
+  border-top: 1px solid #fff;
+}
+/* logo */
+.logo {
+  width: 580px;
+  height: 82px;
+  background: url(../images/logo.jpg) no-repeat;
+  text-indent: -9999px;
+  margin: 52px auto 26px;
+  /* border: 1px solid #f00; */
+}
+.logo a {
+  display: block;
+  height: 100%;
+  z-index: 9999;
+  /* border: 1px solid #f00; */
+}
+/* gnb */
+.gnb ul {
+  width: 1200px;
+  height: 40px;
+  margin: auto;
+}
+.menu_1 {
+  float: left;
+  margin-right: 36px;
+}
+.menu_1 a {
+  width: 131px;
+  height: 40px;
+  background: url(../images/menu_01.jpg) no-repeat;
+  display: block;
+  text-indent: -9999px;
+}
+.menu_2 {
+  float: left;
+  margin-right: 35px;
+}
+.menu_2 a {
+  width: 188px;
+  height: 40px;
+  background: url(../images/menu_02.jpg) no-repeat;
+  display: block;
+  text-indent: -9999px;
+}
+.menu_3 {
+  float: left;
+  margin-right: 35px;
+}
+.menu_3 a {
+  width: 146px;
+  height: 40px;
+  background: url(../images/menu_03.jpg) no-repeat;
+  display: block;
+  text-indent: -9999px;
+}
+.menu_4 {
+  float: left;
+  margin-right: 36px;
+}
+.menu_4 a {
+  width: 182px;
+  height: 40px;
+  background: url(../images/menu_04.jpg) no-repeat;
+  display: block;
+  text-indent: -9999px;
+}
+.menu_5 {
+  float: left;
+  margin-right: 35px;
+}
+.menu_5 a {
+  width: 157px;
+  height: 40px;
+  background: url(../images/menu_05.jpg) no-repeat;
+  display: block;
+  text-indent: -9999px;
+}
+.menu_6 {
+  float: left;
+}
+.menu_6 a {
+  width: 219px;
+  height: 40px;
+  background: url(../images/menu_06.jpg) no-repeat;
+  display: block;
+  text-indent: -9999px;
+}
+
+/* top menu */
+.top_menu {
+  width: 1200px;
+  height: 43px;
+  margin: auto;
+  position: relative;
+}
+.top_menu ul {
+  position: absolute;
+  top: -200px;
+  right: 5px;
+}
+.top_menu .global {
+  width: 45px;
+  height: 43px;
+  background: url(../images/top_menu_global.jpg) no-repeat;
+  text-indent: -9999px;
+  float: left;
+}
+.top_menu .global a {
+  width: 45px;
+  height: 43px;
+  display: block;
+}
+.top_menu .search {
+  width: 45px;
+  height: 43px;
+  background: url(../images/top_menu_search.jpg) no-repeat;
+  text-indent: -9999px;
+  float: left;
+}
+.top_menu .search a {
+  width: 45px;
+  height: 43px;
+  display: block;
+}
+.top_menu .login {
+  width: 77px;
+  height: 43px;
+  background: url(../images/top_menu_login.jpg) no-repeat;
+  text-indent: -9999px;
+  float: left;
+}
+.top_menu .login a {
+  width: 77px;
+  height: 43px;
+  display: block;
+}
