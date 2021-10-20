@@ -1,6 +1,14 @@
+/* 
+  색상 팔레트
+  #fcf5df
+  #000000
+  #e02a29
+  #0f63af
+  #43695b
+*/
+
 body {
   background-color: #fcf5df;
-  width: 1920px;
 }
 .blind {
   position: absolute;
