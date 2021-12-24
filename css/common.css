@@ -7,27 +7,45 @@
   #43695b
 */
 
+@font-face {
+  font-family: Montserrat-Bold;
+  src: url(../font/Montserrat-Bold.ttf);
+}
+@font-face {
+  font-family: Montserrat-SemiBoldItalic;
+  src: url(../font/Montserrat-SemiBoldItalic.ttf);
+}
+@font-face {
+  font-family: Montserrat-SemiBold;
+  src: url(../font/Montsrrat-SemiBold.ttf);
+}
+@font-face {
+  font-family: Montserrat-Regular;
+  src: url(../font/Montserrat-Regular.ttf);
+}
+
+h1,
+h2,
+li,
+dt {
+  font-family: Montserrat-Bold;
+  font-size: 24px;
+}
+
+p,
+dd {
+  font-family: Montserrat-Regular;
+  font-size: 18px;
+}
+
 body {
   background-color: #fcf5df;
 }
-.blind {
-  position: absolute;
-  clip: rect(0 0 0 0);
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  overflow: hidden;
+
+.hidden {
+  display: none;
 }
-.screen_out {
-  overflow: hidden;
-  position: absolute;
-  width: 0;
-  height: 0;
-  line-height: 0;
-  text-indent: -9999px;
-}
-.hide {
-  position: absolute;
-  left: -9999px;
-  top: -9999px;
+
+.show {
+  display: block;
 }

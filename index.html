@@ -5,18 +5,16 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Welcome to the world of Johnnie Walker, home of exceptional Scotch whiskies. Explore our range of whiskies and enjoy the experience. Find out more here.">
   <!-- css file -->
   <link type="text/css" rel="stylesheet" href="css/reset.css">
   <link type="text/css" rel="stylesheet" href="css/common.css">
   <link type="text/css" rel="stylesheet" href="css/header.css">
   <link type="text/css" rel="stylesheet" href="css/index.css">
   <link type="text/css" rel="stylesheet" href="css/footer.css">
-  <!-- font family -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link
-    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Roboto:wght@300&display=swap"
-    rel="stylesheet">
+  <!-- js file -->
+  <script src="js/header.js" defer></script>
+  <script src="js/index.js" defer></script>
   <title>Johnnie Walker</title>
 </head>
 
@@ -24,18 +22,66 @@
   <header id="header" class="header">
     <h1 class="logo"><a href="#">JOHNNIE WALKER</a></h1>
     <nav class="gnb">
-      <h2 class="blind">main menu</h2>
+      <h2 class="hidden">main menu</h2>
       <ul>
-        <li class="menu_1"><a href="#">OUR WHISKY</a></li>
-        <li class="menu_2"><a href="#">WHISKY COCKTAILS</a></li>
-        <li class="menu_3"><a href="#">WHISKY GUIDE</a></li>
-        <li class="menu_4"><a href="#">OUR WHISKY GIFTS</a></li>
-        <li class="menu_5"><a href="#">SUSTAINABILITY</a></li>
-        <li class="menu_6"><a href="#">VISIT US IN EDINBURGH</a></li>
+        <li>
+          <a href="#">OUR WHISKY</a>
+          <ul>
+            <li><a href="#">CORE RANGE</a></li>
+            <li><a href="#">LIMITED EDITION</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#">WHISKY COCKTAILS</a>
+          <ul>
+            <li><a href="#">HIGHBALL COCKTAILS</a></li>
+            <li><a href="#">TRANDITIONAL COCKTAILS</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#">WHISKY GUIDE</a>
+          <ul>
+            <li><a href="#">TYPE OF WHISKY</a></li>
+            <li><a href="#">BLENDED SCOTCH WHISKY</a></li>
+            <li><a href="#">HOW WHISKY IS MADE</a></li>
+            <li><a href="#">THIS HISTORY OF WHISKY</a></li>
+            <li><a href="#">HOW TO DRINK WHISKY</a></li>
+            <li><a href="#">THE JOHNNIE WALKER STORY</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#">OUR WHISKY GIFTS</a>
+          <ul>
+            <li><a href="#">GIFT FROM OUR RANGE</a></li>
+            <li><a href="#">ENGRAVING TOOL</a></li>
+            <li><a href="#">LABEL STUDIO</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#">SUSTAINABILITY</a>
+          <ul>
+            <li><a href="#">RESTORE</a></li>
+            <li><a href="#">REINVENT</a></li>
+            <li><a href="#">REDUCE</a></li>
+            <li><a href="#">PULP FUTURE</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#">VISIT US</a>
+          <ul>
+            <li><a href="#">BOOK YOUR EXPERIENCE</a></li>
+            <li><a href="#">1820 LOOFTOP BAR</a></li>
+            <li><a href="#">EXPLORERS' BOTHY BAR</a></li>
+            <li><a href="#">PRIVATE EVENTS</a></li>
+            <li><a href="#">WHISKY RETAIL</a></li>
+            <li><a href="#">PLAN YOUR VISIT</a></li>
+          </ul>
+        </li>
       </ul>
+      <div class="sub_menu_bg"></div>
     </nav>
     <div class="top_menu">
-      <h2 class="blind">client menu</h2>
+      <h2 class="hidden">client menu</h2>
       <ul>
         <li class="global"><a href="#">Global Translation</a></li>
         <li class="search"><a href="#">SEARCH</a></li>
@@ -44,16 +90,13 @@
     </div>
   </header>
   <main id="content" class="content">
-    <section class="main_image">
-      <h2 class="blind">notice</h2>
-      <div class="main_image_content_wrap">
-        <ul>
-          <li class="main_image_1"><a href="#" class="blind">내용 1</a></li>
-        </ul>
-        <div class="main_image_button">
-          <a href="#" class="main_prev">Previous</a>
-          <a href="#" class="main_next">Next</a>
-        </div>
+    <section class="main_video">
+      <div class="main_video_content_wrap">
+      <h2 class="hidden">Advertisement Video</h2>
+        <video preload="auto" class="main_video_content" autoplay muted loop>
+          <source src="media/main_video.mp4" type="video/mp4">
+          Sorry, your browser doesn't support embedded videos.
+        </video>
       </div>
     </section>
     <section class="core_range">
@@ -63,68 +106,80 @@
       <div class="core_range_content_bg">
         <div class="core_range_content_wrap">
           <div class="red_label_wrap">
-            <dl>
-              <dt>JOHNNIE WALKER RED LABEL</dt>
-              <dd>Flowers that bloom into flames. Johnnie Walker Red Label is the world's best-selling Scotch Whisky. And
-                is
-                made
-                for mixing, both in exhilarating cocktails and with your favorite people. It brings together whiskies
-                specially
-                chosen for their bold, vibrant flavors that add a fiery kick to any mix.</dd>
-            </dl>
+            <div class="red_detail_wrap hover">
+              <dl>
+                <dt>JOHNNIE WALKER RED LABEL</dt>
+                <dd>Flowers that bloom into flames. Johnnie Walker Red Label is the world's best-selling Scotch Whisky. And
+                  is
+                  made
+                  for mixing, both in exhilarating cocktails and with your favorite people. It brings together whiskies
+                  specially
+                  chosen for their bold, vibrant flavors that add a fiery kick to any mix.</dd>
+              </dl>
+            </div>
             <a href="#">RED LABEL</a>
           </div>
           <div class="black_label_wrap">
-            <dl>
-              <dt>JOHNNIE WALKER BLACK LABEL</dt>
-              <dd>Johnnie Walker Black Label is one of life's true icons. A masterful blend of single malt and grain
-                whiskies
-                from across Scotland, aged for at least 12years. The result is a timeless classic with depth and balance
-                of
-                flavor. Drink it with ice, neat or in a Highball.</dd>
-            </dl>
-            <a href="#">BLACK LABEL</a>
+            <div class="black_detail_wrap hover">
+              <dl>
+                <dt>JOHNNIE WALKER BLACK LABEL</dt>
+                <dd>Johnnie Walker Black Label is one of life's true icons. A masterful blend of single malt and grain
+                  whiskies
+                  from across Scotland, aged for at least 12years. The result is a timeless classic with depth and balance
+                  of
+                  flavor. Drink it with ice, neat or in a Highball.</dd>
+                </dl>
+              </div>
+              <a href="#">BLACK LABEL</a>
           </div>
           <div class="doubleblack_label_wrap">
-            <dl>
-              <dt>JOHNNIE WALKER DOUBLE BLACK LABEL</dt>
-              <dd>Johnnie Walker Double Black is the rebellious younger sibling of Johnnie Walker Black Label with a deep,
-                brooding intensity. to It's a sibling of Johnnie Walker Black Label, but youthful, spikier and more
-                rebellious.</dd>
-            </dl>
+            <div class="doubleblack_detail_wrap hover">
+              <dl>
+                <dt>JOHNNIE WALKER DOUBLE BLACK LABEL</dt>
+                <dd>Johnnie Walker Double Black is the rebellious younger sibling of Johnnie Walker Black Label with a deep,
+                  brooding intensity. to It's a sibling of Johnnie Walker Black Label, but youthful, spikier and more
+                  rebellious.</dd>
+              </dl>
+            </div>
             <a href="#">DOUBLE BLACK LABEL</a>
           </div>
           <div class="gold_label_wrap">
-            <dl>
-              <dt>JOHNNIE WALKER GOLD LABEL</dt>
-              <dd>Johnnie Walker Gold Label Reserve is a whisky that plays nicely with others but always holds its own.
-                This
-                award-winning Scotch is made from whiskies chosen for their sweet, honeyed qualities. We select them when
-                they're at their most vibrant for vivid flavor in every mouthful.</dd>
-            </dl>
+            <div class="gold_detail_wrap hover">
+              <dl>
+                <dt>JOHNNIE WALKER GOLD LABEL</dt>
+                <dd>Johnnie Walker Gold Label Reserve is a whisky that plays nicely with others but always holds its own.
+                  This
+                  award-winning Scotch is made from whiskies chosen for their sweet, honeyed qualities. We select them when
+                  they're at their most vibrant for vivid flavor in every mouthful.</dd>
+              </dl>
+            </div>
             <a href="#">GOLD LABEL</a>
           </div>
           <div class="green_label_wrap">
-            <dl>
-              <dt>JOHNNIE WALKER GREEN LABEL</dt>
-              <dd>Our only Scotch blended entirely with single malts. Johnnie Walker Green Label is a hidden gem with
-                vibrant
-                secrets to reveal. And with malts from the four corners of Scotland, aged for at least 15years, it
-                captures
-                the
-                distinct flavors of each landscape in perfect balance. A whisky that's in harmony with narture.</dd>
-            </dl>
+            <div class="green_detail_wrap hover">
+              <dl>
+                <dt>JOHNNIE WALKER GREEN LABEL</dt>
+                <dd>Our only Scotch blended entirely with single malts. Johnnie Walker Green Label is a hidden gem with
+                  vibrant
+                  secrets to reveal. And with malts from the four corners of Scotland, aged for at least 15years, it
+                  captures
+                  the
+                  distinct flavors of each landscape in perfect balance. A whisky that's in harmony with narture.</dd>
+              </dl>
+            </div>
             <a href="#">GREEN LABEL</a>
           </div>
           <div class="blue_label_wrap">
-            <dl>
-              <dt>JOHNNIE WALKER BLUE LABEL</dt>
-              <dd>Where velvety smooth flavors blossom on the tongue. Johnnie Walker Blue Label comes from hand-selecting
-                rare
-                Scotch Whiskies with a remarkable depth of flavor. Only one in 10,000 casks make the cut. Best served
-                neat,
-                along with an ice-cold water to enhance its powerful character.</dd>
-            </dl>
+            <div class="blue_detail_wrap hover">
+              <dl>
+                <dt>JOHNNIE WALKER BLUE LABEL</dt>
+                <dd>Where velvety smooth flavors blossom on the tongue. Johnnie Walker Blue Label comes from hand-selecting
+                  rare
+                  Scotch Whiskies with a remarkable depth of flavor. Only one in 10,000 casks make the cut. Best served
+                  neat,
+                  along with an ice-cold water to enhance its powerful character.</dd>
+              </dl>
+            </div>
             <a href="#">BLUE LABEL</a>
           </div>
         </div>
@@ -188,19 +243,19 @@
       <div class="footer_category_3">
         <h3>Drinking responsibly</h3>
         <ul>
-          <li><a href="#">DRINK AWARE</a></li>
-          <li><a href="#">DRINK IQ</a></li>
-          <li><a href="#">THEBAR.COM</a></li>
-          <li><a href="#">DIAGEO</a></li>
+          <li><a href="https://www.drinkaware.co.uk/">DRINK AWARE</a></li>
+          <li><a href="https://www.drinkiq.com/">DRINK IQ</a></li>
+          <li><a href="https://www.thebar.com/">THEBAR.COM</a></li>
+          <li><a href="https://www.diageo.com/">DIAGEO</a></li>
         </ul>
       </div>
       <div class="footer_sns">
-        <h3 class="blind">SNS</h3>
+        <h3 class="hidden">SNS</h3>
         <ul>
-          <li class="footer_twitter"><a href="#">twitter</a></li>
-          <li class="footer_youtube"><a href="#">youtube</a></li>
-          <li class="footer_instagram"><a href="#">instargram</a></li>
-          <li class="footer_facebook"><a href="#">facebook</a></li>
+          <li class="footer_twitter"><a href="https://twitter.com/johnniewalker_">twitter</a></li>
+          <li class="footer_youtube"><a href="https://www.youtube.com/user/johnniewalkerwhisky">youtube</a></li>
+          <li class="footer_instagram"><a href="https://www.instagram.com/johnniewalker/">instargram</a></li>
+          <li class="footer_facebook"><a href="https://www.facebook.com/JohnnieWalkerKorea/?brand_redir=92634114453">facebook</a></li>
         </ul>
         <p>Keep Walking with us on social</p>
       </div>
@@ -212,9 +267,9 @@
       </div>
       <div class="footer_responsibility">
         <h3>Responsibility</h3>
-        <p class="blind">Please do not share with anyone under the legal purchase age for alcohol. Drink responsibly.
+        <p class="hidden">Please do not share with anyone under the legal purchase age for alcohol. Drink responsibly.
         </p>
-        <p class="blind">Diageo Brands BV 2021</p>
+        <p class="hidden">Diageo Brands BV 2021</p>
       </div>
     </div>
   </footer>
