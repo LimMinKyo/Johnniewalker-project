@@ -124,7 +124,7 @@
 .footer_us {
   position: absolute;
   left: 0px;
-  bottom: 0px;
+  bottom: 20px;
 }
 .footer_us li {
   font-family: 'Montserrat', sans-serif;
@@ -133,12 +133,19 @@
   padding: 0px 10px;
   float: left;
 }
-.footer_responsibility h3 {
-  width: 432px;
-  height: 57px;
-  text-indent: -9999px;
-  background: url(../images/footer_responsibility_detail.png);
+.footer_responsibility {
+  width: 390px;
+  padding-right: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   position: absolute;
   right: 0px;
-  bottom: 28px;
+  bottom: 15px;
+}
+.footer_responsibility p {
+  margin-top: 10px;
+  text-align: right;
+  font-family: Montserrat-ThinItalic;
+  font-size: 12px;
 }

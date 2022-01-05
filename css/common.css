@@ -23,6 +23,10 @@
   font-family: Montserrat-Regular;
   src: url(../font/Montserrat-Regular.ttf);
 }
+@font-face {
+  font-family: Montserrat-ThinItalic;
+  src: url(../font/Montserrat-ThinItalic.ttf);
+}
 
 h1,
 h2,
