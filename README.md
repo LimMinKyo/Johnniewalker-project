@@ -1,7 +1,5 @@
 # 조니워커 메인 페이지 리뉴얼
 
-## 미리보기
-
 - Demo : https://limminkyo.github.io/Johnniewalker-project/
 
 ## 개발 목표
